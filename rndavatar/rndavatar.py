@@ -12,7 +12,7 @@ class RndAvatar:
     def __init__(self, bot):
         self.bot = bot
         self.session = aiohttp.ClientSession(loop=self.bot.loop)
-        self.images = glob.glob("data/rndavatar/*.png")
+        self.images = glob.glob("data/rndavatar/*.jpg")
         self.loop = bot.loop.create_task(self.change_avatar())
         self.status ={
                     "farrukopicture1"    : discord.Status.online,
