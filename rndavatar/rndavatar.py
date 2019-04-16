@@ -39,8 +39,6 @@ class RndAvatar:
             current_game = server.me.game if server is not None else None
 
             try:
-                # async with self.session.get(choice(self.url)) as r:
-                    # data = await r.read()
                 new_avatar = choice(self.images)
                 image_name = new_avatar.split("/")[-1].split(".")[0]
                 with open(new_avatar, "rb") as image:
