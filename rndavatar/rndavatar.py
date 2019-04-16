@@ -18,12 +18,12 @@ class RndAvatar:
                     "farrukopicture1"    : discord.Status.online,
                     "farrukopicture2"    : discord.Status.dnd,
                     "farrukopicture3"    : discord.Status.idle,
-                    "farrukopicture4"    : discord.Status.dnd    
-                    "farrukopicture5"    : discord.Status.idle
-                    "farrukopicture6"    : discord.Status.online
-                    "farrukopicture7"    : discord.Status.dnd
-                    "farrukopicture8"    : discord.Status.idle
-                    "farrukopicture9"    : discord.Status.dnd
+                    "farrukopicture4"    : discord.Status.dnd,    
+                    "farrukopicture5"    : discord.Status.idle,
+                    "farrukopicture6"    : discord.Status.online,
+                    "farrukopicture7"    : discord.Status.dnd,
+                    "farrukopicture8"    : discord.Status.idle,
+                    "farrukopicture9"    : discord.Status.dnd,
                     "farrukopicture10"    : discord.Status.online
                    }
     
